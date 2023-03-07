@@ -8,7 +8,7 @@ pipeline{
         }
         stage('Clone'){
             steps{
-                echo "Hello"
+                git 'https://github.com/ddnn2026/jenkins-github.git'
             }
         }
     }
